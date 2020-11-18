@@ -29,7 +29,13 @@ footer{
     height: 75px;
     position: absolute;
     top: 1150px;
-    margin-bottom: 0;
+    bottom: 0;
+}
+
+footer:after{
+    line-height: 0;
+    margin: 0;
+    display: none;
 }
 
 .icon{
