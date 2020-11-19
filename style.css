@@ -30,12 +30,7 @@ footer{
     position: absolute;
     top: 1150px;
     bottom: 0;
-}
-
-footer:after{
-    line-height: 0;
-    margin: 0;
-    display: none;
+    margin-bottom: 0;
 }
 
 .icon{
