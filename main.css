@@ -187,16 +187,16 @@ header{
     margin: 10px 0;
     align-self: center;
     width: 15%;
-    height: 798px;
+    height: 848px;
 }
 
 .flexFooter{
-    display: inline-flexbox;
-    display: -webkit-inline-flexbox;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-end;
-    align-content: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    width: 100%;
 }
 
 footer{
@@ -207,24 +207,16 @@ footer{
 }
 
 .navFooter{
-    display: inline-block;
-    height: 15%;
+    display: inline;
     text-align: center;
     margin-right: 15px;
 }
 
-.navFooter:last-child{
-    margin-right: 0;
-}
-
-#copyright{
+#infoBlock{
     text-align: center;
     margin: auto;
-}
-
-#address{
-    text-align: center;
-    margin: auto;
+    align-self: center;
+    width: 20%;
 }
 
 #footerMenu{
@@ -242,4 +234,5 @@ footer{
 #socialFooter{
     position: relative;
     float: left;
+    width: 20%;
 }
